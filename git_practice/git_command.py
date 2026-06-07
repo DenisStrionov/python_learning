@@ -1,0 +1,5 @@
+print("Git status")
+print("Git add")
+print("Git commit")
+print("Git push")
+print("Git pull")
