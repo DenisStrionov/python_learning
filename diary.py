@@ -5,17 +5,30 @@
 
 # with open("notes.txt", "a", encoding="utf-8") as file:
 #     file.write(input("Введите запись: ") + "\n")
+# try:
+#     while True:
+#
+#         note = input("Введите запись (выход для завершения): ")
+#
+#         if note.lower() == "выход":
+#             break
+#
+#         with open("notes.txt", "a", encoding="utf-8") as file:
+#             file.write(note + "\n")
+#
+#         print("Запись сохранена")
+#
+# except:
+#     print("Произошла ошибка")
 
-while True:
+# file = open("notes.txt", "w", encoding="utf-8")
+# print(file)
 
-    note = input("Введите запись (выход для завершения): ")
+file = open("notes.txt", "a", encoding="utf-8")
 
-    if note.lower() == "выход":
-        break
+file.write("Сегодня изучаю файлы")
 
-    with open("notes.txt", "a", encoding="utf-8") as file:
-        file.write(note + "\n")
+file.close()
 
-    print("Запись сохранена")
 
 
