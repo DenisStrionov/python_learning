@@ -46,7 +46,7 @@ while True:
 
             file = open("todo.txt", "w", encoding="utf-8")
             for task in tasks:
-                file.write(task)python3 --version
+                file.write(task)
             file.close()
 
             print("Задача удалена")
